@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(233, 243, 247);
+}
+.main-page {
+  display: none;
+  height: 80vh;
+}
+
+.left {
+  overflow: hidden;
+  width: 50%;
+  background-color: rgb(15, 144, 219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-content div {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: beige;
+}
+
+.left-content i {
+  font-size: 30px;
+}
+
+.left-content h3 {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.middle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right-content-form {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+
+.right-content-form label {
+  margin-top: 17px;
+  font-size: 13px;
+  position: absolute;
+  top: 30px;
+  left: 48%;
+  color: rgb(124, 124, 124);
+}
+
+.right-content-form input {
+  width: 200px;
+  height: 35px;
+  margin-left: 10px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.5s;
+}
+
+.right-content-form input:focus {
+  background-color: #d9ebf0;
+  outline: none;
+}
+
+.right-content-form button {
+  margin: 0px 10px;
+  padding: 0px 8px;
+  height: 35px;
+  font-weight: 600;
+  color: rgb(15, 144, 219);
+  background-color: white;
+  border: 1px solid rgb(15, 144, 219);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-top:hover {
+  transform: scale(1.05);
+}
+
+.middle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-content i {
+  font-size: 40px;
+  color: rgb(15, 144, 219);
+}
+.middle-content h1 {
+  font-family: "Courier New", Courier, monospace;
+  margin: 10px 0px;
+}
+
+.middle-content h4 {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 10px;
+}
+
+.middle-content button {
+  border: 1px solid rgb(15, 144, 219);
+  margin: 5px;
+  height: 30px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.middle-content button:hover {
+  transform: scale(1.05);
+}
+.sign-up {
+  color: white;
+  background-color: rgb(15, 144, 219);
+}
+
+.main-page-footer ul {
+  padding: 3%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.main-page-footer a {
+  padding: 0px 10px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+}
+
+/* login page */
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-page-nav {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 180px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgb(124, 124, 124);
+}
+
+.login-page-nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 20px;
+  padding: 20px 10px;
+  list-style: none;
+}
+
+.login-page-nav li {
+  margin-left: 20px;
+}
+
+.login-page-nav li:last-child {
+  margin-left: 600px;
+}
+
+.login-page-nav a:hover {
+  color: rgb(15, 144, 219);
+  box-shadow: 0 2px rgb(15, 144, 219);
+}
+
+.login-page-nav a {
+  text-decoration: none;
+  padding-bottom: 20px;
+  color: rgb(88, 88, 88);
+}
+
+.login-page-nav i {
+  color: rgb(15, 144, 219);
+  font-size: 25px;
+}
+
+.login {
+  margin: 20px 200px;
+  box-shadow: 1px 1px 5px rgb(88, 88, 88);
+  border-radius: 5px;
+}
+
+.login-content {
+  padding: 50px 60px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-content h2 {
+  padding-bottom: 20px;
+}
+
+.login-form input:not(.login-form-checkbox) {
+  border: 1px solid rgb(197, 195, 195);
+  height: 30px;
+  width: 40%;
+  padding-left: 10px;
+  margin: 5px 0px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border: 1px solid rgb(15, 144, 219);
+}
+
+.login-form a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.login-form-btn {
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(15, 144, 219);
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.login-form-btn:hover {
+  transform: scale(1.05);
+}
+
+.login-footer {
+  background-color: silver;
+  padding: 30px 50px;
+  line-height: 30px;
+}
+
+.login-footer a {
+  text-decoration: none;
+}
