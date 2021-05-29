@@ -316,12 +316,19 @@ body {
 
 /*------------------------------------------------*/
 
+.feeds-page{
+  background-color: rgb(200, 227, 245);
+  display: flex;
+}
+
 .feeds-content {
   display: flex;
-  padding-top: 6rem;
-  justify-content: center;
-  height: 80vh;
-  background-color: rgb(203, 225, 247);
+  flex-direction: column;
+  margin-top: 100px;
+  width: 600px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  background-color: rgb(233, 243, 247);
 }
 
 .feeds-header {
@@ -329,17 +336,15 @@ body {
   overflow: hidden;
   padding: 0px 10px;
   margin-top: 10px;
-  background-color: rgb(233, 243, 247);
   flex-direction: column;
-  width: 600px;
-  max-height: 130px;
+  max-height: 140px;
   align-items: center;
   border-radius: 10px;
 }
 
 .header-top {
   display: flex;
-  padding: 20px 40px;
+  padding: 10px 40px;
   margin-bottom: 10px;
   width: 100%;
   justify-content: space-between;
@@ -373,4 +378,58 @@ body {
   height: 40px;
   width: 40px;
   border-radius: 50%;
+}
+
+.post{
+  display: flex;
+  padding: 10px 0px;
+  overflow: hidden;
+  box-shadow: 0px 0px 1px rgb(124, 124, 124);
+}
+
+.user-avatar{
+  padding: 10px 10px;
+}
+
+.user-avatar img{
+  object-fit: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.post-content{
+  width: 500px;
+}
+
+.post-content .post-user-info{
+  padding: 10px 0px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.post-user-info i {
+  color: rgb(15, 144, 219);
+  padding: 0px 7px;
+  font-size: 18px;
+}
+
+.post-text{
+  padding-bottom: 20px;
+}
+
+.post-content img{
+  width: 500px;
+  height: 300px;
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+.post-icons{
+  font-size: 20px;
+}
+
+.post-icons i{
+  padding: 0px 20px;
+  color: rgb(124, 124, 124);
 }
